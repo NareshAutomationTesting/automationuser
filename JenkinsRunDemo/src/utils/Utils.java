@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Utils {
 	
-    private static final String SCREENSHOT_DIR = "test-output/screenshots/";
+    private static final String SCREENSHOT_DIR = "test-output/ExtentReports/screenshots/";
 	
 	 public static String takeScreenshot(String screenshotName,WebDriver driver) {
 	        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

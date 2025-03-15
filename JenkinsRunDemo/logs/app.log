@@ -50,3 +50,7 @@
 2025-03-15 17:36:24 [main] WARN  test.JenkinsDemoRun - This is a WARN message
 2025-03-15 17:36:24 [main] ERROR test.JenkinsDemoRun - This is an ERROR message
 2025-03-15 17:36:24 [main] FATAL test.JenkinsDemoRun - This is a FATAL message
+2025-03-15 17:38:46 [main] INFO  test.JenkinsDemoRun - This is an INFO message
+2025-03-15 17:38:46 [main] WARN  test.JenkinsDemoRun - This is a WARN message
+2025-03-15 17:38:46 [main] ERROR test.JenkinsDemoRun - This is an ERROR message
+2025-03-15 17:38:46 [main] FATAL test.JenkinsDemoRun - This is a FATAL message
