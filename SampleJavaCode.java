@@ -30,6 +30,7 @@ public class SampleJavaCode {
     public void tearDown() {
         if (driver != null) {
             driver.quit();
+            System.out.println("Selenium Test Executed Successfully!");
         }
     }
 }
