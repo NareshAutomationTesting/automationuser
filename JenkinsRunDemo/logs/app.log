@@ -2,3 +2,7 @@
 2025-03-15 12:00:06 [main] WARN  test.java.java.JenkinsDemoRun - This is a WARN message
 2025-03-15 12:00:06 [main] ERROR test.java.java.JenkinsDemoRun - This is an ERROR message
 2025-03-15 12:00:06 [main] FATAL test.java.java.JenkinsDemoRun - This is a FATAL message
+2025-03-15 12:58:31 [main] INFO  test.java.java.JenkinsDemoRun - This is an INFO message
+2025-03-15 12:58:31 [main] WARN  test.java.java.JenkinsDemoRun - This is a WARN message
+2025-03-15 12:58:31 [main] ERROR test.java.java.JenkinsDemoRun - This is an ERROR message
+2025-03-15 12:58:31 [main] FATAL test.java.java.JenkinsDemoRun - This is a FATAL message
