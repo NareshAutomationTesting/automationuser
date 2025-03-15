@@ -5,7 +5,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SampleJavaCode {
 
-	public static void main(String[] args) {
+	@Test
+	public void jenkinsTest() {
 
 		
 		        WebDriverManager.chromedriver().setup();
@@ -15,5 +16,4 @@ public class SampleJavaCode {
 		        driver.quit();
 		    
 	}
-
 }
