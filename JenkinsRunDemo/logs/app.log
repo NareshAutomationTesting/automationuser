@@ -18,3 +18,11 @@
 2025-03-15 16:06:52 [main] WARN  test.java.JenkinsDemoRun - This is a WARN message
 2025-03-15 16:06:52 [main] ERROR test.java.JenkinsDemoRun - This is an ERROR message
 2025-03-15 16:06:52 [main] FATAL test.java.JenkinsDemoRun - This is a FATAL message
+2025-03-15 16:19:59 [main] INFO  test.java.test.JenkinsDemoRun - This is an INFO message
+2025-03-15 16:19:59 [main] WARN  test.java.test.JenkinsDemoRun - This is a WARN message
+2025-03-15 16:19:59 [main] ERROR test.java.test.JenkinsDemoRun - This is an ERROR message
+2025-03-15 16:19:59 [main] FATAL test.java.test.JenkinsDemoRun - This is a FATAL message
+2025-03-15 16:20:17 [main] INFO  test.java.test.JenkinsDemoRun - This is an INFO message
+2025-03-15 16:20:17 [main] WARN  test.java.test.JenkinsDemoRun - This is a WARN message
+2025-03-15 16:20:17 [main] ERROR test.java.test.JenkinsDemoRun - This is an ERROR message
+2025-03-15 16:20:17 [main] FATAL test.java.test.JenkinsDemoRun - This is a FATAL message
