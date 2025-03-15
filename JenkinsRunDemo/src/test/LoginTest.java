@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest {
 	        LoginPage loginPage = new LoginPage(driver);
 	        loginPage.login(username, password);
 	        boolean isLoggedIn = loginPage.isLoggedIn();
-	        Assert.assertTrue(isLoggedIn, "Login failed for user: " + username);
+	        Assert.assertTrue(false, "Login failed for user: " + username);
 	        updateReport(isLoggedIn);
 	    }
 
