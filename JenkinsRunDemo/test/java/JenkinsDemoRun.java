@@ -1,4 +1,5 @@
-package test.java;
+package java;
+
 import org.testng.annotations.Test;
 
 import org.apache.logging.log4j.LogManager;
