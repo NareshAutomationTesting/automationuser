@@ -14,6 +14,7 @@ public class SampleJavaCode {
 		        driver.manage().window().maximize();
 		        driver.get("https://www.saucedemo.com/");
 		        driver.quit();
+			System.out.println("Java Selenium Program executed successfully!");
 		    
 	}
 }
