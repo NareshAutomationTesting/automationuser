@@ -1,4 +1,4 @@
-package test.java;
+package test.java.java;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
