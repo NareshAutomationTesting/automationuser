@@ -1,36 +1,19 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SampleJavaCode {
-    WebDriver driver;
 
-    @BeforeTest
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
+	public static void main(String[] args) {
 
-    @Test
-    public void searchGoogle() {
-        driver.get("https://www.google.com");
-        WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys("Jenkins Selenium Test");
-        searchBox.submit();
-        Assert.assertTrue(driver.getTitle().contains("Jenkins Selenium Test"));
-    }
+		
+		        WebDriverManager.chromedriver().setup();
+		        WebDriver driver = new ChromeDriver();
+		        driver.manage().window().maximize();
+		        driver.get("https://www.saucedemo.com/");
+		        driver.quit();
+		    
+	}
 
-    @AfterTest
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-            System.out.println("Selenium Test Executed Successfully!");
-        }
-    }
 }
